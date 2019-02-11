@@ -31,7 +31,7 @@ namespace ProAgil.WebAPI.Controllers
             }
             catch (Exception)
             {
-                return this.StatusCode(StatusCodes.Status500InternalServerError, "Falha no Banco de Dados!");
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Inicie o Servidor no Angular!");
             }
         }
 
@@ -46,7 +46,7 @@ namespace ProAgil.WebAPI.Controllers
             }
             catch (Exception)
             {
-                return this.StatusCode(StatusCodes.Status500InternalServerError, "Falha no Banco de Dados!");
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Inicie o Servidor no Angular!");
             }
         }
 
